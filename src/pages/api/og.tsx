@@ -63,15 +63,15 @@ export default async function handler(
           <div tw='flex w-full flex-col items-center justify-center'>
             <img
               tw='h-24 w-24'
-              src={`${PUBLIC_URL}/logo512.png`}
-              alt="risalamin.com's logo"
+              src={`${PUBLIC_URL}/Riu.png`}
+              alt="adinfauzan.com's logo"
             />
             <h2 style={gradientTitleStyles} tw='pb-1 text-6xl'>
-              {isHomepage ? 'Risal Amin' : title}
+              {isHomepage ? 'Adin Fauzan' : title}
             </h2>
             {/* Originally semibold */}
             {!isHomepage && (
-              <p tw='text-2xl font-medium text-gray-200'>risalamin.com</p>
+              <p tw='text-2xl font-medium text-gray-200'>adinfauzan.com</p>
             )}
             <p tw='max-w-4xl text-center text-2xl text-gray-300'>
               {description}

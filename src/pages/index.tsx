@@ -20,8 +20,8 @@ export default function Home({
   return (
     <main className='grid gap-20'>
       <SEO
-        title='Risal Amin'
-        description='An online portfolio and blog by Risal Amin. Showcase some of my past projects and some of my thoughts on the world of web development.'
+        title='Adin Fauzan'
+        description=''
       />
       <section className='-mt-20 grid min-h-screen content-center'>
         <motion.h2
@@ -34,7 +34,7 @@ export default function Home({
           className='mt-1 text-3xl font-bold transition-colors delay-200 md:text-5xl 2xl:text-6xl'
           {...setTransition({ delayIn: 0.1 })}
         >
-          I&apos;m <Accent>Risal</Accent> - Full Stack Developer
+          I&apos;m <Accent>Adin</Accent> - Beginer Full Stack Developer
         </motion.h1>
         <motion.p
           className='mt-4 max-w-4xl leading-relaxed text-gray-700 transition-colors delay-[400ms] dark:text-gray-200 
@@ -147,17 +147,17 @@ type SocialLink = {
 const socialLink: SocialLink[] = [
   {
     name: 'Resume',
-    href: 'https://docs.google.com/document/d/1emlC1CdiKDE0sVVqkpoZWj5FSLdXoFUe2kIXAFxF8Kg/edit?usp=sharing',
+    href: '',
     Icon: HiDocumentText
   },
   {
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/risalamin',
+    href: 'https://linkedin.com/in/Adinfauzan',
     Icon: SiLinkedin
   },
   {
     name: 'GitHub',
-    href: 'https://github.com/ccrsxx',
+    href: 'https://github.com/Adinfauzan',
     Icon: SiGithub
   }
 ];

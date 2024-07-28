@@ -15,7 +15,7 @@ import type { IconType } from 'react-icons';
 export default function About(): JSX.Element {
   return (
     <main className='layout min-h-screen'>
-      <SEO title='About' description='Risal Amin is a web developer' />
+      <SEO title='About' description='Adin Fauzan is a web developer' />
       <section className='grid gap-2'>
         <motion.h2
           className='text-xl font-bold md:text-3xl'
@@ -27,7 +27,7 @@ export default function About(): JSX.Element {
           className='text-2xl font-bold md:text-4xl'
           {...setTransition({ delayIn: 0.1 })}
         >
-          <Accent>Risal Amin</Accent>
+          <Accent>Adin Fauzan</Accent>
         </motion.h1>
       </section>
       <section className='mt-4'>
@@ -36,8 +36,8 @@ export default function About(): JSX.Element {
           {...setTransition({ delayIn: 0.2 })}
         >
           <p>
-            Hi, I&apos;m Risal. I started learning web development in November
-            2021, after building my first web app with{' '}
+            Hi, I&apos;m Adin. I started learning web development in November
+            2019, after building my first web app with{' '}
             <CustomLink href='https://python.org'>Python</CustomLink> and the{' '}
             <CustomLink href='https://streamlit.io'>Streamlit</CustomLink>{' '}
             module. Since then, I&apos;ve been dedicated to learning as much as
@@ -49,7 +49,7 @@ export default function About(): JSX.Element {
               FreeCodeCamp
             </CustomLink>{' '}
             and then moved on to{' '}
-            <CustomLink href='https://theodinproject.com'>
+            <CustomLink href='https://kelasfullstack.id'>
               The Odin Project
             </CustomLink>{' '}
             to learn fullstack development. I&apos;m always motivated to learn
@@ -115,8 +115,8 @@ type FavoriteTechStack = {
 const favoriteTechStack: FavoriteTechStack[] = [
   {
     tip: 'a React framework that makes it easy to build static and server-side rendered applications.',
-    name: 'Next.js',
-    href: 'https://nextjs.org',
+    name: 'Remix.js',
+    href: 'https://remixjs.org',
     Icon: SiNextdotjs
   },
   {

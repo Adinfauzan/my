@@ -18,7 +18,7 @@ export const authOptions: AuthOptions = {
 
       const typedSession = session as Session & { user: AssertedUser };
 
-      const admin = username === 'ccrsxx';
+      const admin = username === 'Adinfauzan';
 
       return {
         ...typedSession,

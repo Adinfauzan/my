@@ -1,7 +1,7 @@
 {
-  "name": "Risal Amin | Fullstack Developer",
-  "short_name": "Risal Amin | Fullstack Developer",
-  "description": "An online portfolio and blog by Risal Amin. Showcase some of my past projects and some of my thoughts on the world of web development.",
+  "name": "Adin Fauzan | Beginer Fullstack Developer",
+  "short_name": "Adin Fauzan | Beginer Fullstack Developer",
+  "description": "",
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#fff",
@@ -9,12 +9,12 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/logo192.png",
+      "src": "/Riu.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/logo512.png",
+      "src": "/Riu.png",
       "type": "image/png",
       "sizes": "512x512"
     }
